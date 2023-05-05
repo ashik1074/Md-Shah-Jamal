@@ -173,7 +173,11 @@ img {
   margin-top: auto;
   margin-bottom: auto;
   width: 14%;
-  
+ transition: all 0.3s ease; 
+}
+
+.nav__logo:hover {
+  transform: scale(1.4);
 }
 
 .nav__toggle {
